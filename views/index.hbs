@@ -1,0 +1,21 @@
+ {{!-- for loop --}}
+
+
+{{!-- {{#each name}}
+
+<h1>{{@index}}.{{this}}</h1>
+
+
+{{/each}} --}}
+
+<h1>{{person.comments.date}}</h1>
+
+{{#if person.admin}}
+
+<h1>this is admin</h1>
+
+{{else}}
+
+<h1>this is normal user</h1>
+
+{{/if}}
